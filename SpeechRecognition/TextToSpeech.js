@@ -14,7 +14,11 @@ const TextToSpeech = () => (
   <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center'}}>
  <Button
    title="Speak!"
-   onPress={() => Tts.speak('Happy Birthday')}
+   onPress={() => Tts.speak('A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z')}
+ />
+ <Button
+   title="Stop!"
+   onPress={() => Tts.stop()}
  />
  </View>
 )
